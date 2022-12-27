@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7F7
+}
+.sect1{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+}
+.mainlogo{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 27px;
+    height: 27px;
+    border: 8px solid white;
+    border-radius: 50%;
+    z-index: 10;
+}
+nav{
+    width: 500px;
+    z-index: 10;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    z-index: 10;
+}
+li{
+    color: #FFFFFF;
+    border: none;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 18px;
+    letter-spacing: 1.2px;
+    z-index: 10;
+}
+ul :first-child{
+    border-left: none;
+    z-index: 10;
+}
+.blocking{
+    position: absolute;
+    right: 250px;
+    top: 10px;
+}
+.backpic p{
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 830px;
+    left: 400px;
+}
+.sect2{
+    max-width: 1440px;
+    width: 100%;
+    margin: 50px auto;
+}
+.informations{
+    margin-left: 100px;
+}
+.them{
+    color: #262626;
+    width: 200px;
+}
+.them p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.them button{
+    font-size: 12px;
+    width: 87px;
+    height: 34px;
+    color: white;
+    background-color: #0865DE;
+    border: none;
+}
+.them p{
+    text-align: left;
+    font-size: 11px;
+
+}
+h2{
+    margin-top:77px;
+    font-size: 33px;
+}
+.text p{
+    margin-top: 65px;
+    font-size: 25px;
+    line-height: 45px;
+}
+.footinf{
+    margin-top: 60px;
+    color: #959595;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 670px;
+}
+.tandn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 295px;
+}
+.atag{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atag a{
+    color: #959595;
+    text-decoration: none;
+}
+.sect3{
+    color: #262626;
+    max-width: 1440px;
+    width: 100%;
+    margin:0 auto;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.topleft{
+    width: 835px;
+    height: 339px;
+    background-color: white;
+    border: none;
+    margin-top: 120px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-left:90px ;
+}
+.topleft h2{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.topleft p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.topright{
+    width: 395px;
+    height: 339px;
+    background-color: white;
+    border: none;
+    margin-top: 120px ;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    padding-left:90px ;
+}
+.topright h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.topright p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.bottomleft{
+    width: 835px;
+    height: 505px;
+    background-color: white;
+    border: none;
+    margin-right: 30px;
+    padding-left:90px ;
+}
+.bottomleft h2{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 570px;
+}
+.buttons button{
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.bigtext{
+    margin-top: 50px;
+    width: 670px;
+    font-size: 20px ;
+    line-height: 26px;
+}
+.bottomright{
+    width: 395px;
+    height: 505px;
+    background-color: white;
+    border: none;
+    margin-right: 90px;
+    padding-left:90px ;
+}
+.bottomright h2{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.pictures{
+    width: 255px;
+    height: 215px;
+}
+.cycle{
+    display: flex;
+    flex-direction :row;
+}
+.logo14{
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: rgb(255, 172, 71);
+    border-radius: 50%;
+    margin-bottom: 27px;
+    margin-right: 27px;
+}
